@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./plugins/css/all.min.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <hr />
+        <div class="row my-4 justify-content-between">
+          <div class="col-1">
+            <a href="#" class="item"
+              ><i class="fa-solid fa-magnifying-glass mt-4 f-20"></i
+            ></a>
+          </div>
+          <div class="col-auto">
+            <div class="row text-center">
+              <a href="./index.html" class="item"
+                ><img src="./plugins/images/logoLofi.png" class="logo" alt=""
+              /></a>
+            </div>
+            <ul class="nav w-100">
+              <li class="nav-item mx-3 mt-2">
+                <a href="#" class="item">Home</a>
+              </li>
+              <li class="nav-item mx-3 mt-2">
+                <a
+                  href="#"
+                  class="item dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Merch</a
+                >
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item item category" value="1" href="#"
+                      >T-Shirts</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item item category" value="2" href="#"
+                      >Hodies</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item item category" value="3" href="#"
+                      >Crewnecks</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-3 mt-2">
+                <a href="#" class="item">Contacts Us</a>
+              </li>
+
+              <li class="nav-item mx-3 mt-2">
+                <a href="./blog.html" class="item">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col text-end">
+            <div class="row justify-content-end" style="align-items: baseline">
+              <div class="col-10">
+                <span id="loginController" class="nav-item dropdown w-100">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      class="w-100"
+                      src="https://scontent.fhan3-4.fna.fbcdn.net/v/t1.6435-9/96257038_565211084430474_5495815778022195200_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=BcdWE7519H8AX9unzhb&_nc_ht=scontent.fhan3-4.fna&oh=00_AT9LHqNN3qG2z0G65ZpJfhtK5cOV_MOnMd7CgeyF1GJDxw&oe=62D5C3F9"
+                    />
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-profile"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Log out</a></li>
+                  </ul>
+                </span>
+              </div>
+              <div class="col-2">
+                <a
+                  href="./cart.html"
+                  id="cart"
+                  class="nav-item text-dark cart-item"
+                >
+                  <i class="fa-solid fa-cart-shopping f-20 mt-4"> </i>
+                  <p id="cart-number" class="cart-number bg-secondary">0</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </header>
+      <div class="container">
+        <div id="listOrder" class="row ps-5">
+          <div class="col" id="listOrderItem">
+            <!-- <div class="row my-2 align-items-center">
+                <div class="col-sm-1 col-12">1</div>
+                <div class="col-xl-1 col-md-2  col-sm-3">
+                  <img src="https://scontent.fhan3-4.fna.fbcdn.net/v/t1.6435-9/96257038_565211084430474_5495815778022195200_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=BcdWE7519H8AX9unzhb&_nc_ht=scontent.fhan3-4.fna&oh=00_AT9LHqNN3qG2z0G65ZpJfhtK5cOV_MOnMd7CgeyF1GJDxw&oe=62D5C3F9" class="w-100" alt="">
+                </div>
+                <div class="col">minh thu handmade</div>
+                <div class="col-1">1</div>
+                <div class="col-sm-3 col-12">total</div> -->
+          </div>
+        </div>
+        <!-- <div class="col-12 pb-2 pt-3 text-secondary">25-2-2020</div> -->
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <p>Subscribe to our emails</p>
+          <div class="form-floating w-50">
+            <input
+              type="email"
+              id="Email"
+              class="form-control"
+              placeholder="Email"
+            />
+            <label for="Email">Email</label>
+          </div>
+        </div>
+        <div class="col-6 text-end">
+          <span class="mx-2"><i class="fa-brands fa-twitter mt-5"></i></span>
+          <span class="mx-2"
+            ><i class="fa-brands fa-instagram-square mt-5"></i
+          ></span>
+          <span class="mx-2"><i class="fa-brands fa-youtube mt-5"></i></span>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-6">
+          <p>Country/region</p>
+          <select name="country" class="form-control w-25" id="country">
+            <option value="1">United States (USD $)</option>
+            <option value="2">Kosovo (USD $)</option>
+            <option value="3">kuwait (USD $)</option>
+          </select>
+        </div>
+        <div class="col-6 text-end">
+          <span class="mx-2"
+            ><i class="fa-brands fa-2x mt-4 fa-apple-pay"></i
+          ></span>
+          <span class="mx-2"
+            ><i class="fa-brands fa-2x mt-4 fa-google-pay"></i
+          ></span>
+          <span class="mx-2"
+            ><i class="fa-brands fa-2x mt-4 fa-cc-visa"></i
+          ></span>
+          <span class="mx-2"
+            ><i class="fa-brands fa-2x mt-4 fa-cc-paypal"></i
+          ></span>
+          <span class="mx-2"
+            ><i class="fa-brands fa-2x mt-4 fa-paypal"></i
+          ></span>
+          <span class="d-block message-bottom"
+            >© 2022, lofi.co - shop Powered by Shopify</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/api.js"></script>
+    <script type="text/javascript" src="./js/categories.js"></script>
+    <script type="text/javascript" src="./js/login.js"></script>
+    <script type="text/javascript" src="./js/history.js"></script>
+  </body>
+</html>

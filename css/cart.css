@@ -1,0 +1,20 @@
+.cart-item {
+  position: relative;
+  text-decoration: none;
+}
+.cart-number {
+  position: absolute;
+  left: 10px;
+  font-size: 0.8em;
+  line-height: 1em;
+  padding: 0 3px;
+  border-radius: 3px;
+
+  bottom: -15px;
+}
+.btn-add-to-cart {
+  max-width: 100%;
+}
+.dropdown-profile {
+  left: -100px !important;
+}

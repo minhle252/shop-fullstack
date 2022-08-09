@@ -1,0 +1,22 @@
+.selectable {
+  width: 100%;
+  justify-content: space-between;
+  height: 120px;
+}
+.selectable-item {
+  text-align: center;
+  padding-left: 20px;
+  height: 100%;
+  width: 20%;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.selectable-item--title {
+  font-weight: bold !important;
+  font-size: 19px;
+}
+.img-traffic {
+  margin-top: 30px;
+  max-width: 100%;
+}

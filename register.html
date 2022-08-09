@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./plugins/css/all.min.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/cart.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <hr />
+        <div class="row my-4 justify-content-between">
+          <div class="col-1">
+            <a href="#" class="item"
+              ><i class="fa-solid fa-magnifying-glass mt-4 f-20"></i
+            ></a>
+          </div>
+          <div class="col-auto">
+            <div class="row text-center">
+              <a href="./index.html" class="item"
+                ><img src="./plugins/images/logoLofi.png" class="logo" alt=""
+              /></a>
+            </div>
+            <ul class="nav w-100">
+              <li class="nav-item mx-3 mt-2">
+                <a href="#" class="item">Home</a>
+              </li>
+              <li class="nav-item mx-3 mt-2">
+                <a
+                  href="#"
+                  class="item dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Merch</a
+                >
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item item" href="#">T-Shirts</a></li>
+                  <li><a class="dropdown-item item" href="#">Hodies</a></li>
+                  <li>
+                    <a class="dropdown-item item" href="#">Crewnecks</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-3 mt-2">
+                <a href="#" class="item">Contacts Us</a>
+              </li>
+              
+              <li class="nav-item mx-3 mt-2">
+                <a href="./blog.html" class="item">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col text-end">
+            <span id="loginController">
+              <a href="./login.html" class="item me-2"
+              ><i class="fa-solid fa-user f-20 mt-4"></i
+            ></a>
+            </span>
+            <a href="./cart.html" class="item"
+              ><i class="fa-solid fa-cart-shopping f-20 mt-4"></i
+            ></a>
+          </div>
+        </div>
+        <hr />
+      </header>
+      <div class="row justify-content-center">
+        <div class="col-6">
+            <p class="title">Register</p>
+          <div class="form-floating ">
+            <input
+              type="text"
+              id="username"
+              class="form-control"
+              placeholder="Username"
+            />
+            <label for="Username">Username</label>
+          </div>
+          <div class="form-floating  my-4">
+            <input
+              type="password"
+              id="password"
+              class="form-control"
+              placeholder="Password"
+            />
+            <label for="password">Password</label>
+          </div>
+          <div class="form-floating ">
+            <input
+              type="text"
+              id="email"
+              class="form-control"
+              placeholder="Email..."
+            />
+            <label for="Email">Email</label>
+          </div>
+          <p id="error" class="text-center text-danger"></p>
+          <a href="./login.html" class="fogot d-block"> Forgot your password?</a>
+          <a id="btnSingup" href="#" class="btn btn-login offset-md-5 offset-3">Singup</a>
+    
+        </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <p>Subscribe to our emails</p>
+          <div class="form-floating w-50">
+            <input
+              type="email"
+              id="Email"
+              class="form-control"
+              placeholder="Email"
+            />
+            <label for="Email">Email</label>
+          </div>
+        </div>
+        <div class="col-6 text-end">
+          <span class="mx-2"><i class="fa-brands fa-twitter mt-5"></i></span>
+          <span class="mx-2"
+            ><i class="fa-brands fa-instagram-square mt-5"></i
+          ></span>
+          <span class="mx-2"><i class="fa-brands fa-youtube mt-5"></i></span>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-6">
+          <p>Country/region</p>
+          <select name="country" class="form-control w-25" id="country">
+            <option value="1">United States (USD $)</option>
+            <option value="2">Kosovo (USD $)</option>
+            <option value="3">kuwait (USD $)</option>
+          </select>
+        </div>
+        <div class="col-6 text-end">
+          <span class="mx-2"
+            ><i class="fa-brands fa-2x mt-4 fa-apple-pay"></i
+          ></span>
+          <span class="mx-2"
+            ><i class="fa-brands fa-2x mt-4 fa-google-pay"></i
+          ></span>
+          <span class="mx-2"
+            ><i class="fa-brands fa-2x mt-4 fa-cc-visa"></i
+          ></span>
+          <span class="mx-2"
+            ><i class="fa-brands fa-2x mt-4 fa-cc-paypal"></i
+          ></span>
+          <span class="mx-2"
+            ><i class="fa-brands fa-2x mt-4 fa-paypal"></i
+          ></span>
+          <span class="d-block message-bottom"
+            >© 2022, lofi.co - shop Powered by Shopify</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/api.js"></script>
+<script type="text/javascript" src="./js/categories.js"></script>
+  <script type="text/javascript" src="./js/register.js"></script>
+  </body>
+</html>

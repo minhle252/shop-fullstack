@@ -1,0 +1,57 @@
+a {
+  text-decoration: none;
+}
+.f-20 {
+  font-size: 20px;
+}
+.item,
+.Money,
+.fogot {
+  color: #000;
+  font-weight: 300;
+}
+.fogot {
+  text-decoration: underline !important;
+}
+.item:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.card-borders {
+  border: 1px solid rgba(0, 0, 0, 0.07);
+}
+.title {
+  font-size: 35px;
+  margin-top: 15px;
+  padding: 0;
+}
+.message-bottom {
+  font-size: 10px;
+}
+.btn-login {
+  background-color: #000;
+  color: #fff;
+  width: 120px;
+  height: 50px;
+  border-radius: 0px !important;
+}
+.tax {
+  font-size: 14px;
+  font-weight: 200;
+}
+.btn-pay {
+  width: 300px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0px;
+  height: 50px;
+}
+.border-circle {
+  border-radius: 15px;
+}
+.btn-size {
+  width: 50px;
+}
+a.login {
+  color: #000;
+}
